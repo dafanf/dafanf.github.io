@@ -1,0 +1,360 @@
+.atur-limit-container {
+  width: 432px;
+  height: 936px;
+  display: flex;
+  overflow: auto;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(249, 249, 249, 1);
+}
+.atur-limit-atur-limit {
+  width: 100%;
+  height: 936px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.atur-limit-i-phonestatusbarupper {
+  top: 0px;
+  left: 0px;
+  width: 432px;
+  height: 35px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.atur-limit-notch {
+  gap: 11px;
+  top: 0px;
+  left: 0px;
+  width: 432px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.atur-limit-status-icons {
+  gap: 3px;
+  top: 12px;
+  left: 365px;
+  width: 55px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.atur-limit-network-signal-light {
+  width: 16px;
+  height: 11px;
+}
+.atur-limit-wi-fi-signal-light {
+  width: 13px;
+  height: 11px;
+}
+.atur-limit-battery-light {
+  width: 20px;
+  height: 11px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.atur-limit-rectangle23 {
+  top: 4px;
+  left: 19px;
+  width: 1px;
+  height: 3px;
+  position: absolute;
+}
+.atur-limit-rectangle2-stroke {
+  top: 0.7px;
+  width: 18px;
+  height: 10px;
+  position: absolute;
+  box-sizing: content-box;
+}
+.atur-limit-rectangle20 {
+  top: 2.4px;
+  left: 1.6px;
+  width: 15px;
+  height: 6px;
+  position: absolute;
+  border-radius: 0.8px;
+}
+.atur-limit-indicator {
+  top: 6.4px;
+  left: 370.4px;
+  width: 5px;
+  height: 4.8px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.atur-limit-time-light {
+  top: 9.6px;
+  left: 16.8px;
+  width: 43px;
+  height: 16.8px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+.atur-limit-svg941 {
+  top: 2.4px;
+  left: 8.8px;
+  width: 26px;
+  height: 12px;
+  position: absolute;
+}
+.atur-limit-simpan {
+  top: 837.6px;
+  left: 25.6px;
+  width: 432px;
+  height: 49.6px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.atur-limit-text {
+  top: 13.6px;
+  left: 115.2px;
+  color: rgba(0, 0, 0, 1);
+  width: 142px;
+  height: auto;
+  position: absolute;
+  font-size: 18.4px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.atur-limit-atur-pembatasan-pengeluaran {
+  top: 79.2px;
+  left: 0px;
+  width: 432px;
+  height: 382.4px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  flex-shrink: 0;
+  background-color: rgba(249, 249, 249, 1);
+}
+
+.atur-limit-saldo {
+  top: 270px;
+  width: 432px;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.atur-limit-text02 {
+  top: 17.9px;
+  left: 26.8px;
+  color: rgba(0, 0, 0, 1);
+  width: 29px;
+  height: auto;
+  position: absolute;
+  font-size: 22.4px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.atur-limit-text04 {
+  top: 15.5px;
+  left: 72.3px;
+  color: rgba(254, 173, 13, 1);
+  width: 33px;
+  height: auto;
+  position: absolute;
+  font-size: 28.8px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.atur-limit-text05 {
+  color: rgba(254, 173, 13, 1);
+  font-weight: 400;
+}
+.atur-limit-text06 {
+  color: rgba(0, 0, 0, 1);
+  left: 40px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.atur-limit-text07 {
+  color: rgba(0, 0, 0, 1);
+  left: 40px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.atur-limit-pilih-bulan {
+  top: 60px;
+  left: 0px;
+  width: 432px;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.atur-limit-batas-pengeluaran {
+  top: 191px;
+  left: 0px;
+  width: 432px;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.atur-limit-text08 {
+  top: 21.2px;
+  left: 7px;
+  color: rgba(0, 0, 0, 1);
+  width: 116px;
+  height: auto;
+  position: absolute;
+  font-size: 22.4px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.atur-limit-text10 {
+  color: rgba(0, 0, 0, 1);
+  width: 219px;
+  height: auto;
+  position: absolute;
+  font-size: 18.4px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.atur-limit-vector9 {
+  top: 64.3px;
+  left: 422px;
+  width: 6px;
+  height: 16px;
+  position: absolute;
+}
+.atur-limit-title {
+  top: 48.8px;
+  left: 17.6px;
+  width: 241.6px;
+  height: 23.2px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.atur-limit-cross {
+  top: 4.8px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+.atur-limit-text12 {
+  left: 46px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.input-group {
+  height: 50px;
+  width: 85%;
+  top: 40px;
+  left: 40px;
+}
+
+.btn-simpan {
+  height: 50px;
+  width: 95%;
+}
+
+.btn-simpan button {
+  height: 50px;
+  width: 95%;
+  background-color: #fcba03;
+  font-style: bold;
+}
+
+.modal-footer .btn-lanjut {
+  background-color: white;
+  color: black;
+  font-family: Inter;
+  border-bottom: 3px solid #fcba03;
+}
+
+.modal-footer .btn-batal {
+  background-color: #fcba03;
+  color: black;
+  font-family: Inter;
+}
+
+#rupiah {
+  border-color: #fcba03;
+  caret-color: #fcba03;
+  font-size: 20px;
+  font-style: bold;
+  font-family: Inter;
+  font-weight: 700;
+}
+
+#bulan {
+  font-size: 18.4px;
+}
+
+@media only screen and (max-width: 300px) {
+  .modal-dialog {
+    max-width: 70%;
+  }
+}

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {
+        line-height: 1.15;
+      }
+      body {
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+      }
+      p,
+      li,
+      ul,
+      pre,
+      div,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      figure,
+      blockquote,
+      figcaption {
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        background-color: transparent;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      [type="button"],
+      [type="reset"],
+      [type="submit"] {
+        -webkit-appearance: button;
+      }
+      button::-moz-focus-inner,
+      [type="button"]::-moz-focus-inner,
+      [type="reset"]::-moz-focus-inner,
+      [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
+      button:-moz-focus,
+      [type="button"]:-moz-focus,
+      [type="reset"]:-moz-focus,
+      [type="submit"]:-moz-focus {
+        outline: 1px dotted ButtonText;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      input {
+        padding: 2px 4px;
+      }
+      img {
+        display: block;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+      }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" data-tag="font" />
+    <link rel="shortcut icon" href="assets/images/jago-favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div>
+      <link href="./Dafa1.css" rel="stylesheet" />
+
+      <div class="dashboard-container">
+        <div class="dashboard-dashboard">
+          <div class="dashboard-rencanakan">
+            <img alt="Rectangle128302" src="public/playground_assets/rectangle128302-zd2-200h.png" class="dashboard-rectangle12" />
+            <span class="dashboard-text"><span>Rencanakan</span></span>
+            <span class="dashboard-text02"><span>Tutup</span></span>
+            <span class="dashboard-text04">
+              <span>Buat Rencana Pembayaran</span>
+            </span>
+            <span class="dashboard-text06">
+              <span>Sering lupa bayar tagihan?</span>
+            </span>
+            <img alt="image102133" src="public/playground_assets/image102133-ep0r-200w.png" class="dashboard-image10" />
+          </div>
+          <div class="dashboard-frame4"></div>
+          <div class="dashboard-spotlight">
+            <div class="dashboard-frame5">
+              <img alt="Rectangle138303" src="public/playground_assets/rectangle138303-tc4c-400w.png" class="dashboard-rectangle13" />
+              <img alt="Rectangle118209" src="public/playground_assets/rectangle118209-9814-200h.png" class="dashboard-rectangle11" />
+            </div>
+          </div>
+          <div class="dashboard-header">
+            <img alt="Gradient29114" src="public/playground_assets/gradient29114-r30a-300h.png" class="dashboard-gradient2" />
+            <img alt="Gradient1737" src="public/playground_assets/gradient1737-15i-300h.png" class="dashboard-gradient1" />
+            <img alt="JagoLogoFilename2618" src="public/playground_assets/jagologofilename2618-1ode.svg" class="dashboard-jago-logo-filename2" />
+            <div class="dashboard-status-bar">
+              <div class="dashboard-battery">
+                <img alt="BorderI814" src="public/playground_assets/borderi814-0m7-200h.png" class="dashboard-border" />
+                <img alt="CapI814" src="public/playground_assets/capi814-lqx.svg" class="dashboard-cap" />
+                <img alt="CapacityI814" src="public/playground_assets/capacityi814-ad7g-200h.png" class="dashboard-capacity" />
+              </div>
+              <img alt="WifiI814" src="public/playground_assets/wifii814-nfqa.svg" class="dashboard-wifi" />
+              <img alt="CellularConnectionI814" src="public/playground_assets/cellularconnectioni814-pvoj.svg" class="dashboard-cellular-connection" />
+              <div class="dashboard-time-style">
+                <span class="dashboard-text08"><span>9:41</span></span>
+              </div>
+            </div>
+            <span class="dashboard-text10">
+              <span>Selamat pagi, Muhammad Deo Audha Rizki!</span>
+            </span>
+            <img alt="NotificationBadge924" src="public/playground_assets/notificationbadge924-s3xg-200h.png" class="dashboard-notification-badge" />
+            <span class="dashboard-text12">8</span>
+          </div>
+          <div class="dashboard-search">
+            <img alt="Rectangle258305" src="public/playground_assets/rectangle258305-5ame-200h.png" class="dashboard-rectangle25" />
+            <img alt="SearchIcon9122" src="public/playground_assets/searchicon9122-nn1-200h.png" class="dashboard-search-icon" />
+            <span class="dashboard-text13"><span>Cari</span></span>
+          </div>
+          <div class="dashboard-shortcut-problem-domain">
+            <span class="dashboard-text15"><span>Shortcut</span></span>
+            <div class="dashboard-edit-shortcut">
+              <img alt="Rectangle108196" src="public/playground_assets/rectangle108196-j4s-200w.png" class="dashboard-rectangle10" />
+              <div class="dashboard-group23">
+                <span class="dashboard-text17"><span>Edit Shortcut</span></span>
+              </div>
+              <img alt="Edit8146" src="public/playground_assets/edit8146-sftf.svg" class="dashboard-edit" />
+            </div>
+            <div class="dashboard-kantong-bersama">
+              <img alt="Rectangle98195" src="public/playground_assets/rectangle98195-1yv-200w.png" class="dashboard-rectangle9" />
+              <div class="dashboard-group15">
+                <img alt="image92132" src="public/playground_assets/image92132-zj6a-200w.png" class="dashboard-image9" />
+                <span class="dashboard-text19">
+                  <span>Kantong Bersama</span>
+                </span>
+              </div>
+            </div>
+            <div class="dashboard-transfer">
+              <img alt="Rectangle88194" src="public/playground_assets/rectangle88194-oi77-200w.png" class="dashboard-rectangle8" />
+              <div class="dashboard-group14">
+                <a href="./Deo1.html">
+                  <img alt="image68206" src="public/playground_assets/image68206-23t5-200w.png" class="dashboard-image6" />
+                </a>
+                <span class="dashboard-text21"><span>Transfer</span></span>
+              </div>
+            </div>
+            <div class="dashboard-limit-pengeluaran">
+              <img alt="Rectangle78193" src="public/playground_assets/rectangle78193-qslq-200w.png" class="dashboard-rectangle7" />
+              <div class="dashboard-group13">
+                <a href="./Tabitha1.html">
+                  <img alt="image82032" src="public/playground_assets/image82032-90u-200h.png" class="dashboard-image8" />
+                </a>
+                <span class="dashboard-text23">
+                  <span>Limit Pengeluaran</span>
+                </span>
+              </div>
+            </div>
+            <div class="dashboard-tagih">
+              <img alt="Rectangle68192" src="public/playground_assets/rectangle68192-rzcn-200w.png" class="dashboard-rectangle6" />
+              <div class="dashboard-group12">
+                <img alt="image112133" src="public/playground_assets/image112133-2xmb-200w.png" class="dashboard-image11" />
+                <span class="dashboard-text25"><span>Tagih</span></span>
+              </div>
+            </div>
+            <div class="dashboard-tagihan">
+              <img alt="Rectangle58191" src="public/playground_assets/rectangle58191-ne8h-200w.png" class="dashboard-rectangle5" />
+              <div class="dashboard-group11">
+                <img alt="image122710" src="public/playground_assets/image122710-t8uv-200w.png" class="dashboard-image12" />
+                <span class="dashboard-text27"><span>Tagihan</span></span>
+              </div>
+            </div>
+            <div class="dashboard-kantong">
+              <img alt="Rectangle48190" src="public/playground_assets/rectangle48190-g29n-200w.png" class="dashboard-rectangle4" />
+              <div class="dashboard-group10">
+                <img alt="image48200" src="public/playground_assets/image48200-e0ro-200w.png" class="dashboard-image4" />
+                <span class="dashboard-text29"><span>Kantong</span></span>
+              </div>
+            </div>
+            <div class="dashboard-pindai">
+              <img alt="Rectangle38189" src="public/playground_assets/rectangle38189-7mg-200w.png" class="dashboard-rectangle3" />
+              <div class="dashboard-group9">
+                <img alt="image38198" src="public/playground_assets/image38198-54h-200h.png" class="dashboard-image3" />
+                <span class="dashboard-text31"><span>Pindai</span></span>
+              </div>
+            </div>
+          </div>
+          <img alt="image7923" src="public/playground_assets/image7923-58av-200h.png" class="dashboard-image7" />
+          <img alt="AccountIcon920" src="public/playground_assets/accounticon920-bvai-200h.png" class="dashboard-account-icon" />
+          <div class="dashboard-tampilan-saldo-problem-domain">
+            <img alt="hidden15415" src="public/playground_assets/hidden15415-h8s-200h.png" class="dashboard-hidden1" />
+            <span class="dashboard-text33"><span>Aset Saya</span></span>
+            <div class="dashboard-saldo-bar">
+              <img alt="Ellipse515012" src="public/playground_assets/ellipse515012-wut8-300h.png" class="dashboard-ellipse51" />
+              <span class="dashboard-text35"><span>Rp4.073.812</span></span>
+            </div>
+            <div class="dashboard-detail-saldo">
+              <img alt="Rectangle35013" src="public/playground_assets/rectangle35013-ztpo-200h.png" class="dashboard-rectangle31" />
+              <img alt="Gopay5016" src="public/playground_assets/gopay5016-ioc-200w.png" class="dashboard-gopay" />
+              <img alt="KantongUtama5411" src="public/playground_assets/kantongutama5411-w0bc-200h.png" class="dashboard-kantong-utama" />
+              <span class="dashboard-text37">
+                <span>Investasi (25.00%)</span>
+              </span>
+              <span class="dashboard-text39">
+                <span>Uang Tunai (75.00%)</span>
+              </span>
+              <span class="dashboard-text41"><span>Rp1.018.453</span></span>
+              <span class="dashboard-text43"><span>Rp3.055.359</span></span>
+              <span class="dashboard-text45">
+                <span>Reksa Dana Bibit</span>
+              </span>
+              <span class="dashboard-text47"><span>Kantong Utama</span></span>
+              <span class="dashboard-text49"><span>Gopay</span></span>
+              <span class="dashboard-text51"><span>Rp1.018.453</span></span>
+              <span class="dashboard-text53"><span>Rp2.036.906</span></span>
+              <span class="dashboard-text55"><span>Rp1.018.453</span></span>
+              <img alt="Asset14x15415" src="public/playground_assets/asset14x15415-5ho-200h.png" class="dashboard-asset14x1" />
+              <img alt="savemoney15018" src="public/playground_assets/savemoney15018-0rkk-200h.png" class="dashboard-savemoney1" />
+              <img alt="wallet15018" src="public/playground_assets/wallet15018-rxw5-200w.png" class="dashboard-wallet1" />
+            </div>
+          </div>
+          <span class="dashboard-text57"><span>Spotlight</span></span>
+          <div class="dashboard-navbar">
+            <span class="dashboard-text59"><span>Beranda</span></span>
+            <span class="dashboard-text61"><span>Kantong</span></span>
+            <span class="dashboard-text63"><span>Kontak</span></span>
+            <span class="dashboard-text65"><span>Kartu</span></span>
+            <span class="dashboard-text67"><span>lainnya</span></span>
+            <img alt="Vector3025" src="public/playground_assets/vector3025-cmz6.svg" class="dashboard-vector" />
+            <img alt="homebutton25012" src="public/playground_assets/homebutton25012-iz48-200h.png" class="dashboard-homebutton2" />
+            <img alt="Bagfill4919" src="public/playground_assets/bagfill4919-wp9e.svg" class="dashboard-bagfill" />
+            <div class="dashboard-creditcardfill">
+              <img alt="Subtract4923" src="public/playground_assets/subtract4923-zkg.svg" class="dashboard-subtract" />
+            </div>
+            <div class="dashboard-notebookfill">
+              <img alt="Union5311" src="public/playground_assets/union5311-mylx.svg" class="dashboard-union" />
+            </div>
+            <div class="dashboard-user">
+              <img alt="Ellipse455312" src="public/playground_assets/ellipse455312-wzt7-200h.png" class="dashboard-ellipse45" />
+              <img alt="Ellipse465313" src="public/playground_assets/ellipse465313-0p5-200h.png" class="dashboard-ellipse46" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

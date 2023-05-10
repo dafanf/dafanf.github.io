@@ -1,0 +1,390 @@
+.pesan-limit-pengeluaran-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.pesan-limit-pengeluaran-pesan-limit-pengeluaran {
+  width: 100%;
+  height: 936px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.pesan-limit-pengeluaran-title {
+  top: 48.79999923706055px;
+  left: 11.199999809265137px;
+  width: 168px;
+  height: 23.200000762939453px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.pesan-limit-pengeluaran-cross {
+  top: 4.800012111663818px;
+  left: 0.000003051757857974735px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+.pesan-limit-pengeluaran-text {
+  top: 0.00001220703143189894px;
+  left: 25.60000228881836px;
+  color: rgba(0, 0, 0, 1);
+  width: 142px;
+  height: auto;
+  position: absolute;
+  font-size: 20.80000114440918px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pesan-limit-pengeluaran-profile {
+  top: 123.19999694824219px;
+  left: 11.199999809265137px;
+  width: 396px;
+  height: 45.599998474121094px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.pesan-limit-pengeluaran-ellips {
+  top: 0px;
+  left: 0px;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+}
+.pesan-limit-pengeluaran-text02 {
+  top: 13.599987983703613px;
+  left: 11.200002670288086px;
+  color: rgba(255, 255, 255, 1);
+  width: 23px;
+  height: auto;
+  position: absolute;
+  font-size: 16.80000114440918px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pesan-limit-pengeluaran-text04 {
+  top: 1px;
+  left: 16px;
+  color: rgba(0, 0, 0, 1);
+  width: 318px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pesan-limit-pengeluaran-text06 {
+  left: 18px;
+  color: rgba(0, 0, 0, 0.47999998927116394);
+  width: 222px;
+  bottom: 3px;
+  height: auto;
+  position: absolute;
+  font-size: 9.600000381469727px;
+  font-style: Extra Light;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pesan-limit-pengeluaran-arrow-down {
+  top: 11.999987602233887px;
+  left: 374.3999938964844px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.pesan-limit-pengeluaran-i-phonestatusbarupper {
+  top: 0px;
+  left: 0px;
+  width: 432px;
+  height: 35.20000076293945px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.pesan-limit-pengeluaran-notch {
+  gap: 11.199999809265137px;
+  top: 0px;
+  left: 0px;
+  width: 432px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.pesan-limit-pengeluaran-status-icons {
+  gap: 3.200000047683716px;
+  top: 12.800000190734863px;
+  left: 365.6000061035156px;
+  width: 55px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.pesan-limit-pengeluaran-network-signal-light {
+  width: 16px;
+  height: 11px;
+}
+.pesan-limit-pengeluaran-wi-fi-signal-light {
+  width: 13px;
+  height: 11px;
+}
+.pesan-limit-pengeluaran-battery-light {
+  width: 20px;
+  height: 11.199999809265137px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pesan-limit-pengeluaran-rectangle23 {
+  top: 3.999997138977051px;
+  left: 19.1999568939209px;
+  width: 1px;
+  height: 3px;
+  position: absolute;
+}
+.pesan-limit-pengeluaran-rectangle2-stroke {
+  top: 0.7999971508979797px;
+  left: -0.00004285573959350586px;
+  width: 18px;
+  height: 10px;
+  position: absolute;
+  box-sizing: content-box;
+}
+.pesan-limit-pengeluaran-rectangle20 {
+  top: 2.3999972343444824px;
+  left: 1.5999572277069092px;
+  width: 15px;
+  height: 6px;
+  position: absolute;
+  border-radius: 0.800000011920929px;
+}
+.pesan-limit-pengeluaran-indicator {
+  top: 6.400000095367432px;
+  left: 370.3999938964844px;
+  width: 5px;
+  height: 4.800000190734863px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pesan-limit-pengeluaran-time-light {
+  top: 9.600000381469727px;
+  left: 16.80000114440918px;
+  width: 43px;
+  height: 16.80000114440918px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+.pesan-limit-pengeluaran-svg941 {
+  top: 2.399994134902954px;
+  left: 8.799951553344727px;
+  width: 26px;
+  height: 12px;
+  position: absolute;
+}
+.pesan-limit-pengeluaran-saldo {
+  top: 199.1999969482422px;
+  left: 12px;
+  width: 406.3999938964844px;
+  height: 125.5999984741211px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.form-control-lg {
+  /* font-weight: bold; */
+  width: 390px;
+}
+.pesan-limit-pengeluaran-saldo-box {
+  top: 0px;
+  left: 0px;
+  width: 395px;
+  height: 72px;
+  position: absolute;
+  border-color: rgba(239, 187, 86, 1);
+  border-style: solid;
+  border-width: 2.4000000953674316px;
+  border-radius: 11.199999809265137px;
+}
+.pesan-limit-pengeluaran-text08 {
+  top: 19.199987411499023px;
+  left: 57.20967102050781px;
+  color: rgba(254, 173, 13, 1);
+  width: 39px;
+  height: auto;
+  position: absolute;
+  font-size: 28.80000114440918px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pesan-limit-pengeluaran-text09 {
+  color: rgba(254, 173, 13, 1);
+  font-weight: 400;
+}
+
+.pesan-limit-pengeluaran-text009 {
+  color: rgb(29, 28, 28);
+  font-weight: 600;
+  opacity: 40%;
+  left: -13px;
+  position: relative;
+}
+.d-grid {
+  top: 220px;
+  position: relative;
+}
+
+.btn-lanjut {
+  background-color: rgba(254, 173, 13, 1);
+  border-radius: 8px;
+}
+.pesan-limit-pengeluaran-text10 {
+  top: 21.599987030029297px;
+  left: 20.799999237060547px;
+  color: rgba(0, 0, 0, 1);
+  width: 31px;
+  height: auto;
+  position: absolute;
+  font-size: 22.399999618530273px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pesan-limit-pengeluaran-arrow-down1 {
+  top: 103.99998474121094px;
+  left: 167.1999969482422px;
+  width: 14px;
+  height: 20px;
+  position: absolute;
+}
+.pesan-limit-pengeluaran-text12 {
+  top: 102.39998626708984px;
+  left: 4.800000190734863px;
+  color: rgba(0, 0, 0, 0.47999998927116394);
+  width: 30px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pesan-limit-pengeluaran-text14 {
+  top: 102.39998626708984px;
+  left: 286.3999938964844px;
+  color: rgba(0, 0, 0, 0.47999998927116394);
+  width: 120px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pesan-limit-pengeluaran-text16 {
+  top: 102.39998626708984px;
+  left: 40.79999923706055px;
+  color: rgba(0, 0, 0, 1);
+  width: 175px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pesan-limit-pengeluaran-text116 {
+  position: relative;
+  top: -8px;
+  font-weight: 700;
+}
+.pesan-limit-pengeluaran-button-lanjut {
+  top: 836.7999877929688px;
+  left: 12px;
+  width: 395.20001220703125px;
+  height: 56px;
+  position: absolute;
+}
+.pesan-limit-pengeluaran-text18 {
+  top: 16.800012588500977px;
+  left: 163.1999969482422px;
+  color: rgba(0, 0, 0, 1);
+  width: 81px;
+  height: auto;
+  position: absolute;
+  font-size: 19.200000762939453px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+#rupiah {
+  border-color: #fcba03;
+  caret-color: #fcba03;
+  font-size: 20px;
+  font-style: bold;
+  font-family: Inter;
+  font-weight: 700;
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Atur Limit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/images/jago-favicon.png" type="image/x-icon">
+    
+    <!-- Memuat file JavaScript Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js"></script>
+    
+    <style data-tag="reset-style-sheet">
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+      <link href="./Tabitha1.css" rel="stylesheet" />
+
+      <div class="atur-limit-container">
+        <div class="atur-limit-i-phonestatusbarupper">
+            <div class="atur-limit-status-icons">
+              <img src="public/playground_assets/networksignallighti531-dplu.svg" alt="NetworkSignalLightI531" class="atur-limit-network-signal-light"/>
+              <img src="public/playground_assets/wifisignallighti531-qcp.svg" alt="WiFiSignalLightI531" class="atur-limit-wi-fi-signal-light" />
+              <div class="atur-limit-battery-light">
+                <img src="public/playground_assets/rectangle23i531-5voo.svg" alt="Rectangle23I531" class="atur-limit-rectangle23"/>
+                <img src="public/playground_assets/rectangle21strokei531-kjm.svg" alt="Rectangle21StrokeI531" class="atur-limit-rectangle2-stroke"/>
+                <img src="public/playground_assets/rectangle20i531-v53p-200h.png" alt="Rectangle20I531" class="atur-limit-rectangle20"/>
+              </div>
+            </div>
+            <div class="atur-limit-indicator"></div>
+            <div class="atur-limit-time-light">
+              <img src="public/playground_assets/svg941i531-2m6n.svg" alt="SVG941I531" class="atur-limit-svg941" />
+            </div>
+          </div>
+          
+
+          <div class="atur-limit-title">
+            <button id="my-button" type="button" class="btn-close" aria-label="Close"></button>
+            <span class="atur-limit-text12">
+              <span>Limit Pengeluaran</span>
+            </span>
+            <!-- Add a script tag to your HTML page to add event listener -->
+            <script>
+              const myButton = document.getElementById("my-button");
+
+              // Add an event listener to the button
+              myButton.addEventListener("click", function () {
+                // Navigate to index.html page
+                window.location.href = "Dafa1.html";
+              });
+            </script>
+          </div>
+          
+          <div class="atur-limit-atur-pembatasan-pengeluaran">
+            <div class="atur-limit-pilih-bulan">
+              <span class="atur-limit-text07">
+                <span>Bulan</span>
+              </span>              
+                <div class="input-group mb-3">
+                  <select class="form-select" id="bulan" name="bulan">
+                    <option selected value="">Pilih Bulan</option>
+                    <option value="Januari">Januari</option>
+                    <option value="Februari">Februari</option>
+                    <option value="Maret">Maret</option>
+                    <option value="April">April</option>
+                    <option value="Mei">Mei</option>
+                    <option value="Juni">Juni</option>
+                    <option value="Juli">Juli</option>
+                    <option value="Agustus">Agustus</option>
+                    <option value="September">September</option>
+                    <option value="Oktober">Oktober</option>
+                    <option value="November">November</option>
+                    <option value="Desember">Desember</option>
+                  </select>
+                </div>
+            </div>
+          </div>
+
+          <div class="atur-limit-saldo">
+            <span class="atur-limit-text06">
+              <span>Batas pengeluaran</span>
+            </span>
+            <div class="input-group mb-3" >
+              <input type="text" id="rupiah" class="form-control" placeholder="Rp0" aria-label="Amount (to the nearest rupiah)">
+            </div>
+            <script type="text/javascript">
+              var rupiah = document.getElementById('rupiah');
+              rupiah.addEventListener('keyup', function(e){
+                // tambahkan 'Rp.' pada saat form di ketik
+                // gunakan fungsi formatRupiah() untuk mengubah angka yang di ketik menjadi format angka
+                rupiah.value = formatRupiah(this.value, 'Rp ');
+              });
+           
+              /* Fungsi formatRupiah */
+              function formatRupiah(angka, prefix){
+                var number_string = angka.replace(/[^,\d]/g, '').toString(),
+                split   		= number_string.split(','),
+                sisa     		= split[0].length % 3,
+                rupiah     		= split[0].substr(0, sisa),
+                ribuan     		= split[0].substr(sisa).match(/\d{3}/gi);
+           
+                // tambahkan titik jika yang di input sudah menjadi angka ribuan
+                if(ribuan){
+                  separator = sisa ? '.' : '';
+                  rupiah += separator + ribuan.join('.');
+                }
+           
+                rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+                return prefix == undefined ? rupiah : (rupiah ? 'Rp ' + rupiah : '');
+              }
+            </script>
+          </div>     
+        </div>
+
+        <div class="atur-limit-simpan">
+          <!-- Button -->
+          <div class="btn-simpan">
+            <button type="button" class="btn" onclick="alert()" data-bs-toggle="modal">Simpan</button>
+            <script>
+              function alert(){
+                  var bulan = $("#bulan").val();
+                  var rupiah = $("#rupiah").val();
+        
+                  if (bulan!="" && rupiah!=""){
+                    var bulanValue = bulan;
+                    var rupiahValue = rupiah;
+                
+                    // Menampilkan nilai field bulan dan rupiah di dalam modal
+                    document.getElementById("bulanValue").textContent = bulanValue;
+                    document.getElementById("rupiahValue").textContent = rupiahValue;
+    
+                    // Mengaktifkan modal
+                      var myModal = new bootstrap.Modal(document.getElementById("exampleModal"));
+                      myModal.show();
+                  } else if (bulan.length == "") {
+        
+                    Swal.fire({
+                      type: 'warning',
+                      title: 'Oops...',
+                      text: 'Bulan Wajib Diisi !'
+                    });
+        
+                  } else if(rupiah.length == "") {
+        
+                    Swal.fire({
+                      type: 'warning',
+                      title: 'Oops...',
+                      text: 'Batas pengeluaran Wajib Diisi !'
+                    });
+                  } else if(bulan.length == "" && rupiah.length == "") {
+        
+                    Swal.fire({
+                      type: 'warning',
+                      title: 'Oops...',
+                      text: 'Wajib Diisi !'
+                    });
+                  }
+                }
+            </script>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Atur Limit</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Apakah kamu yakin akan membatasi pengeluaran bulan <span id="bulanValue"></span> sebesar <span id="rupiahValue"></span></p> 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-batal" data-bs-dismiss="modal">Batal</button>
+                  <button type="button" class="btn btn-lanjut" id="btn-lanjut" onclick="berhasil()">Lanjut
+            
+                  <script>
+                    function berhasil(){
+                  
+                      var bulan = $("#bulan").val();
+                      var rupiah = $("#rupiah").val();
+            
+                      if (bulan!="" && rupiah!=""){
+                        Swal.fire({
+                          type: 'success',
+                          title: 'yupsss!',
+                          text: 'berhasil tersimpan!',
+                          timer: 1400
+                        }).then(() => {
+                          setTimeout(() => {
+                            window.location.href = "Dafa1.html";
+                          }, 0);
+                        });
+                      }
+                    }
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
