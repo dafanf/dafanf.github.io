@@ -134,7 +134,7 @@
               // Add an event listener to the button
               myButton.addEventListener("click", function () {
                 // Navigate to index.html page
-                window.location.href = "Dafa1.html";
+                window.location.href = "index.html";
               });
             </script>
           </div>
@@ -287,7 +287,7 @@
                 <div class="modal-body">Kamu mendekati limit pengeluaran pada bulan April. Batas pengeluaran kamu pada bulan April adalah <span id="rupiahValue"></span>. Mau tetap melakukan transaksi ini?</div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-lanjut" data-bs-dismiss="modal">Batal</button>
-                  <button type="button" class="btn lanjut-modal" onclick="berhasil()">Lanjut</button>
+                  <button type="button" class="btn lanjut-modal" id="btn-lanjut-modal" onclick="berhasil()">Lanjut</button>
                   <script>
                     function berhasil() {
                       var bulan = $("#bulan").val();
@@ -301,7 +301,7 @@
                           timer: 1400,
                         }).then(() => {
                           setTimeout(() => {
-                            window.location.href = "Dafa1.html";
+                            window.location.href = "index.html";
                           }, 0);
                         });
                       }

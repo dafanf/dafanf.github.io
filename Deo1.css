@@ -280,6 +280,10 @@
   background-color: rgba(254, 173, 13, 1);
   border-radius: 8px;
 }
+
+#btn-lanjut-modal {
+  border-bottom: 3px solid #fcba03;
+}
 .pesan-limit-pengeluaran-text10 {
   top: 21.599987030029297px;
   left: 20.799999237060547px;
