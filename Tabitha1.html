@@ -85,8 +85,9 @@
           <div class="atur-limit-atur-pembatasan-pengeluaran">
             <div class="atur-limit-pilih-bulan">
               <span class="atur-limit-text07">
-                <span>Bulan</span>
-              </span>              
+                <span >Bulan</span> <span class="text-wajib">*</span>
+              </span>             
+
                 <div class="input-group mb-3">
                   <select class="form-select" id="bulan" name="bulan">
                     <option selected value="">Pilih Bulan</option>
@@ -109,7 +110,7 @@
 
           <div class="atur-limit-saldo">
             <span class="atur-limit-text06">
-              <span>Batas pengeluaran</span>
+              <span>Batas pengeluaran</span> <span class="text-wajib">*</span>
             </span>
             <div class="input-group mb-3" >
               <input type="text" id="rupiah" class="form-control" placeholder="Rp0" aria-label="Amount (to the nearest rupiah)">
@@ -168,7 +169,7 @@
                     Swal.fire({
                       type: 'warning',
                       title: 'Oops...',
-                      text: 'Bulan Wajib Diisi !'
+                      text: 'Bulan Wajib Diisi! Silahkan isi terlebih dahulu'
                     });
         
                   } else if(rupiah.length == "") {
@@ -176,7 +177,7 @@
                     Swal.fire({
                       type: 'warning',
                       title: 'Oops...',
-                      text: 'Batas pengeluaran Wajib Diisi !'
+                      text: 'Batas pengeluaran Wajib Diisi!  Silahkan isi terlebih dahulu'
                     });
                   } else if(bulan.length == "" && rupiah.length == "") {
         
