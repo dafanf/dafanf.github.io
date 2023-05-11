@@ -208,8 +208,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.atur-limit-text07 {
-  color: rgba(0, 0, 0, 1);
+.atur-limit-text07{
   left: 40px;
   height: auto;
   position: absolute;
@@ -221,6 +220,11 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
+.text-wajib {
+  color: red;
+}
+
 .atur-limit-pilih-bulan {
   top: 60px;
   left: 0px;
@@ -231,6 +235,7 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
+
 .atur-limit-batas-pengeluaran {
   top: 191px;
   left: 0px;
